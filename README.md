@@ -8,11 +8,11 @@ Effectively, the whole device behaves like a homemade accelerometer:
 •	By combining static calibration and dynamic compensation, the raw voltage can be transformed into the actual acceleration of the box.
 
 
-1. Static Calibration (statica.m)
+1. Static Calibration (t_statica.m)
 
 The static calibration establishes the relation between the sensor voltage and the displacement of the magnet.
 
-Data are collected from a controlled static test and stored in an Excel file (t_statica.xlsx).
+Data are collected from a controlled static test.
 
 A polynomial fit is applied to convert voltage values into displacement values.
 
